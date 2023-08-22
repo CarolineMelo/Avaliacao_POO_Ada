@@ -1,0 +1,13 @@
+{
+  "name": "avaliacao-modulo-1",
+  "version": "1.0.0",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6",
+    "@types/node": "^20.5.0",
+    "@types/prompt-sync": "^4.2.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
