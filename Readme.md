@@ -1,3 +1,15 @@
+
+<h1 align="center">Avaliação de Nivelamento ADA - Projeto em Grupo</h1>
+<h4 align="center">Bem-vindo ao repositório da Avaliação de Nivelamento ADA! </h4>
+
+## :pushpin:*Descrição do Projeto*
+<p>O projeto de Avaliação de Nivelamento ADA é parte integrante do curso de Algoritmos e Estruturas de Dados Avançados. Ele foi concebido com o intuito de mapear o conhecimento prévio dos alunos ingressantes no curso, permitindo assim uma adaptação mais precisa do conteúdo lecionado. O projeto foi conduzido em grupo, com cada equipe sendo responsável por diferentes aspectos do processo.</p>
+
+
+## :pushpin:*Conteúdo do Repositório*
+ <h3>Questões que compõem a atividade são as seguintes:</h3>
+ 
+
 1. Escreva uma classe cujos objetos representam alunos matriculados em uma disciplina. Cada objeto
    dessa classe deve guardar os seguintes dados do aluno: matrícula, nome, 2 notas de prova e 1 nota de
    trabalho. Escreva os seguintes métodos para esta classe:
@@ -70,3 +82,33 @@
    produtos no estoque e calcular o valor total do estoque. Crie instâncias de produtos e adicione-os ao
    estoque. Teste os métodos implementados através de um menu no console, permitindo que o usuário
    realize as operações de controle de estoque.
+
+Contatos
+Em caso de dúvidas, sugestões ou qualquer outro assunto relacionado a atividade, você pode entrar em contato com os membros da equipe responsável:
+
+**Francieli Alvarenga**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil%20do%20Membro-blue)](https://www.linkedin.com/in/francieli-alvarenga/)
+
+**Caroline Melo**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Caroline%20Melo-blue)](https://www.linkedin.com/in/carolinemelo-dev/)
+
+
+## :blue_heart:*Agradecimentos especiais*
+<p>Gostaríamos de expressar nosso profundo agradecimento ao Professor Aguilar, por sua orientação e apoio contínuo durante o módulo. Suas aulas inspiradoras e dedicação à excelência acadêmica nos proporcionaram uma base sólida de conhecimento. Estamos imensamente gratos por suas contribuições para o nosso crescimento educacional.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
