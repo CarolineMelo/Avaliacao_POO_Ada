@@ -92,6 +92,8 @@ Em caso de dúvidas, sugestões ou qualquer outro assunto relacionado a atividad
 **Caroline Melo**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Caroline%20Melo-blue)](https://www.linkedin.com/in/carolinemelo-dev/)
 
+**Vinicius Teixeira**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vin%C3%ADcius%20Teixeira%20Saraiva-blue)](https://www.linkedin.com/in/vinicius-teixeira-saraiva/)
 
 ## :blue_heart:*Agradecimentos especiais*
 <p>Gostaríamos de expressar nosso profundo agradecimento ao Professor Aguilar, por sua orientação e apoio contínuo durante o módulo. Suas aulas inspiradoras e dedicação à excelência acadêmica nos proporcionaram uma base sólida de conhecimento. Estamos imensamente gratos por suas contribuições para o nosso crescimento educacional.</p>
