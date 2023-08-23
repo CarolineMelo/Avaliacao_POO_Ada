@@ -1,25 +1,33 @@
 import promptSync from 'prompt-sync';
 import {Aluno} from "./aluno";
 
-const prompt = promptSync();
 
-const nomeAluno = prompt("Digite o nome do aluno: ");
-const matriculaAluno = Number(prompt("Digite a matricula do aluno: "));
+function exec(): void {
 
-const aluno : Aluno  = new Aluno(nomeAluno, matriculaAluno);
+    const prompt = promptSync();
 
-const notaProva1 = Number(prompt("Digite a nota da prova 1: "));
-const notaProva2 = Number(prompt("Digite a nota da prova 2: "));
-const notaTrabalho = Number(prompt("Digite a nota do trabalho: "));
+    const nomeAluno = prompt("Digite o nome do aluno: ");
+    const matriculaAluno = Number(prompt("Digite a matricula do aluno: "));
 
-aluno.setNotaProva1(notaProva1);
+    const aluno : Aluno  = new Aluno(nomeAluno, matriculaAluno);
 
-aluno.setNotaProva2(notaProva2);
+    const notaProva1 = Number(prompt("Digite a nota da prova 1: "));
 
-aluno.setNotaTrabalho(notaTrabalho);
+    aluno.setNotaProva1(notaProva1);
 
-aluno.getNome();
+    const notaProva2 = Number(prompt("Digite a nota da prova 2: "));
 
-console.log(`Media do aluno é ${aluno.calcularMedia()}!`);
-aluno.statusAprovacao();
-console.log(aluno.quantoFaltaParaAprovacao());
+    aluno.setNotaProva2(notaProva2);
+
+    const notaTrabalho = Number(prompt("Digite a nota do trabalho: "));
+
+    aluno.setNotaTrabalho(notaTrabalho);
+
+    aluno.getNome();
+
+    console.log(`Media do aluno é ${aluno.calcularMedia()}!`);
+    aluno.statusAprovacao();
+    console.log(aluno.quantoFaltaParaAprovacao());
+}
+
+exec();

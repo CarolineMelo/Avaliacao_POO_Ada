@@ -39,9 +39,10 @@ export class Aluno {
 
     public setNotaProva1(notaProva1: number) : void | string {
         if (notaProva1 < 0) {
-            return "Nota da prova 1 não pode ser menor que 0";
+            console.log("Nota da prova 1 não pode ser menor que 0");
+            return;
         } else if (notaProva1 > 10) {
-            return "Nota da prova 1 não pode ser maior que 10";
+            console.log("Nota da prova 1 não pode ser maior que 10");
         } else {
             this.notaProva1 = notaProva1;
         }
@@ -57,9 +58,11 @@ export class Aluno {
 
     public setNotaProva2(notaProva2: number) : void | string {
         if (notaProva2 < 0) {
-            return "Nota da prova 2 não pode ser menor que 0";
+            console.log("Nota da prova 2 não pode ser menor que 0");
+            return;
         } else if (notaProva2 > 10) {
-            return "Nota da prova 2 não pode ser maior que 10";
+            console.log("Nota da prova 2 não pode ser maior que 10");
+            return;
         } else {
             this.notaProva2 = notaProva2;
         }
@@ -73,13 +76,16 @@ export class Aluno {
         }
     }
 
-    public setNotaTrabalho(notaTrabalho: number) : void | string {
+    public setNotaTrabalho(notaTrabalho: number) : void | string | boolean {
         if (notaTrabalho < 0) {
-            return "Nota do trabalho não pode ser menor que 0";
+            console.log("Nota do trabalho não pode ser menor que 0");
+            return false;
         } else if (notaTrabalho > 10) {
-            return "Nota do trabalho não pode ser maior que 10";
+            console.log("Nota do trabalho não pode ser maior que 10");
+            return false;
         } else {
             this.notaTrabalho = notaTrabalho;
+            return true;
         }
     }
 
