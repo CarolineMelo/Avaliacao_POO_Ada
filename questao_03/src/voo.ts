@@ -18,6 +18,15 @@ export class Voo {
         this._hora = hora;
     }
 
+    public setNumeroPassageiros(numero: number) {
+        this.numaroPassageiros = numero;
+        this.cadeiras = new Array(this.numaroPassageiros);
+    }
+
+    public getNumeroPassageiros(): number {
+        return this.numaroPassageiros;
+    }
+
     public getCadeiras(): Array<boolean> {
         return this.cadeiras;
     }
@@ -79,17 +88,3 @@ export class Voo {
         return vagas;
     }
 }
-
-let voo = new Voo(123, "São Paulo", "Rio de Janeiro", new Data(1, 1, 2020), "12:00");
-
-let numeroCadeira = 1;
-
-voo.ocupa(1);
-voo.ocupa(2);
-console.log(`A cadeira ${numeroCadeira} esta ocupada: ${voo.isOcupado(1)}`);
-console.log(`Qual o proxima cadeira livre: ${voo.proximoLivre()}`);
-
-console.log(`Cadeiras ocupadas ${voo.getCadeiras()}`);
-
-console.log(`Vagas disponiveis ${voo.vagas()}.`);
-console.log(`Numero do voo ${voo.getNumero()}.`);
