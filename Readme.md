@@ -3,7 +3,7 @@
 <h4 align="center">Bem-vindo ao repositório da Avaliação de Nivelamento ADA! </h4>
 
 ## :pushpin:*Descrição do Projeto*
-<p>O projeto de Avaliação de Nivelamento ADA é parte integrante do curso de Algoritmos e Estruturas de Dados Avançados. Ele foi concebido com o intuito de mapear o conhecimento prévio dos alunos ingressantes no curso, permitindo assim uma adaptação mais precisa do conteúdo lecionado. O projeto foi conduzido em grupo, com cada equipe sendo responsável por diferentes aspectos do processo.</p>
+<p>O projeto de Avaliação de Nivelamento ADA é parte integrante do curso de programação. Ele foi concebido com o intuito de mapear o conhecimento prévio dos alunos ingressantes no curso, permitindo assim uma adaptação mais precisa do conteúdo lecionado.</p>
 
 
 ## :pushpin:*Conteúdo do Repositório*
@@ -86,14 +86,23 @@
 Contatos
 Em caso de dúvidas, sugestões ou qualquer outro assunto relacionado a atividade, você pode entrar em contato com os membros da equipe responsável:
 
-**Francieli Alvarenga**
+# Equipe
+
+## Francieli Alvarenga
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil%20do%20Membro-blue)](https://www.linkedin.com/in/francieli-alvarenga/)
 
-**Caroline Melo**
+## Caroline Melo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Caroline%20Melo-blue)](https://www.linkedin.com/in/carolinemelo-dev/)
 
-**Vinicius Teixeira**
+## Vinicius Teixeira
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vin%C3%ADcius%20Teixeira%20Saraiva-blue)](https://www.linkedin.com/in/vinicius-teixeira-saraiva/)
+
+## Laurieny Jayne Estevo
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Laurieny%20Jayne%20Estevo-blue)](https://www.linkedin.com/in/laurieny-jayne-estevo-developer/)
+
+## Bruno Marques
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil%20do%20Membro-blue)](https://www.linkedin.com/in/b-marques/)
+
 
 ## :blue_heart:*Agradecimentos especiais*
 <p>Gostaríamos de expressar nosso profundo agradecimento ao Professor Aguilar, por sua orientação e apoio contínuo durante o módulo. Suas aulas inspiradoras e dedicação à excelência acadêmica nos proporcionaram uma base sólida de conhecimento. Estamos imensamente gratos por suas contribuições para o nosso crescimento educacional.</p>
